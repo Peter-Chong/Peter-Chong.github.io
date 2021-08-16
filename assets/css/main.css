@@ -196,7 +196,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 5rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -2555,6 +2555,8 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 		.icon:before {
@@ -2678,19 +2680,20 @@ input, select, textarea {
 
 .personalStatementContainer {
 	width: 100%;
-	height: 600px;
+	height: 480px;
 }
 		
 .personalStatementPicture {
 	width: 40%;
 	float: left;
-	margin-right: 10px;
-	margin-left: 70px;
+	margin-right: 20px;
+	margin-left: 40px;
 }
 		
 .personalStatementText {
 	width: 50%;
 	float: left;
+	margin-top: 60px; /* Edit this*/
 }
 
 
@@ -3406,7 +3409,7 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 4rem;
 			line-height: 1;
 		}
 
@@ -4405,7 +4408,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.9);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -4707,3 +4710,35 @@ input, select, textarea {
 		}
 
 	}
+/* Experience */
+.experience-card{
+	display: flex;
+	align-items: center;
+}
+
+.experience-date {
+	font-size: 0.6em;
+	background-color: #f1f1f1;
+	display: inline-block;
+	padding: 0.25em 1em 0.2em 1em;
+	border-radius: 10px;
+	margin-top: 7px;
+	margin-bottom: 0;
+	float: right;
+	width: 125px;
+}
+
+.experience-image {
+	height: auto;
+	width: 60px;
+	margin-right: 20px;
+}
+
+.experience-title {
+	margin: 0px;
+}
+
+.experience-text{
+	width: 600px;
+}
+
