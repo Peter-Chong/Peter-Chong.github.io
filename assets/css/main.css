@@ -2680,7 +2680,7 @@ input, select, textarea {
 
 .personalStatementContainer {
 	width: 100%;
-	height: 480px;
+	height: 520px;
 }
 		
 .personalStatementPicture {
@@ -2693,7 +2693,7 @@ input, select, textarea {
 .personalStatementText {
 	width: 50%;
 	float: left;
-	margin-top: 60px; /* Edit this*/
+	margin-top: 80px; /* Edit this*/
 }
 
 
@@ -3418,6 +3418,7 @@ input, select, textarea {
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+
 		}
 
 		#intro + #header {
@@ -3812,7 +3813,7 @@ input, select, textarea {
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
-				margin: 0 0 2rem 0;
+				margin: -2rem 0 0 0;
 			}
 
 			#main > .post.featured {
@@ -4714,24 +4715,29 @@ input, select, textarea {
 .experience-card{
 	display: flex;
 	align-items: center;
+	width: 100%;
+	line-height: 30px;
+	margin-bottom: 30px;
 }
 
 .experience-date {
-	font-size: 0.6em;
+	font-size: 0.8em;
 	background-color: #f1f1f1;
 	display: inline-block;
 	padding: 0.25em 1em 0.2em 1em;
 	border-radius: 10px;
-	margin-top: 7px;
+	margin-top: 5px;
 	margin-bottom: 0;
+	margin-right: -230px;
 	float: right;
-	width: 125px;
+	width: 156px;
 }
 
 .experience-image {
 	height: auto;
-	width: 60px;
-	margin-right: 20px;
+	width: 90px;
+	margin-right: 25px;
+	margin-top:-10px;
 }
 
 .experience-title {
