@@ -1,1 +1,1 @@
-Visit my personal website at [peter-chong.github.io](peter-chong.github.io) 😄
+Visit my personal website at [peter-chong.github.io](https://peter-chong.github.io) 😄
