@@ -3892,6 +3892,9 @@ input, select, textarea {
 				border-top-width: 2px;
 				text-align: center;
 			}
+			ul {
+				text-align: left;
+			  }
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
