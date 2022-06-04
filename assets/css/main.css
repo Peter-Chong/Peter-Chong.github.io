@@ -196,7 +196,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 5rem;
+		font-size: 2rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -2680,24 +2680,18 @@ input, select, textarea {
 
 .personalStatementContainer {
 	display: flex;
-	width: 100%;
-	height: 100%;
 }
-		
+
 .personalStatementPicture {
-	width: 40%;
 	float: left;
 	margin-right: 20px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
-		
+
 .personalStatementText {
-	width: 50%;
 	float: left;
-	margin-top: 8%; /* Edit this*/
+	margin-top: 10%;
 }
-
-
 
 /* Actions */
 
@@ -3409,7 +3403,7 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 4rem;
+			font-size: 4rem; /* Hi, I'm Peter!*/
 			line-height: 1;
 		}
 
@@ -3418,7 +3412,6 @@ input, select, textarea {
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
-
 		}
 
 		#intro + #header {
@@ -3813,7 +3806,7 @@ input, select, textarea {
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
-				margin: -2rem 0 0 0;
+				margin: 0 0 2rem 0;
 			}
 
 			#main > .post.featured {
@@ -3892,9 +3885,6 @@ input, select, textarea {
 				border-top-width: 2px;
 				text-align: center;
 			}
-			ul {
-				text-align: left;
-			  }
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
@@ -4412,7 +4402,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.9);
+		color: rgba(255, 255, 255, 1);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
@@ -4714,35 +4704,33 @@ input, select, textarea {
 		}
 
 	}
-/* Experience */
-.experience-card{
-	display: flex;
-	align-items: center;
-	line-height: 170%;
-	margin-bottom: 5%;
-}
 
-.experience-date {
-	font-size: 80%;
-	background-color: #f1f1f1;
-	display: flex;
-	padding: 0.25em 1em 0.2em 1em;
-	border-radius: 10px;
-	float: right;
-}
-
-.experience-image {
-	height: auto;
-	width: 90px;
-	margin-right: 25px;
-	margin-top:-10px;
-}
-
-.experience-title {
-	margin: 0px;
-}
-
-.experience-text{
-	width:10000px
-}
-
+	.experience-card{
+		display: flex;
+		align-items: center;
+		line-height: 170%;
+		margin-bottom: 4%;
+	}
+	
+	.experience-date {
+		font-size: 80%;
+		background-color: #f1f1f1;
+		padding: 0.25em 1em 0.2em 1em;
+		border-radius: 10px;
+		float: right;
+	}
+	
+	.experience-image {
+		height: auto;
+		width: 100px;
+		align-items: -10px;
+		margin-right: 30px;
+	}
+	
+	.experience-title {
+		margin: 2px;
+	}
+	
+	.experience-text{
+		width: 100%;
+	}
