@@ -2700,10 +2700,12 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-wrap: wrap;
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
 		padding-left: 0;
+		row-gap: 10px;
 	}
 
 		ul.actions li {
